@@ -1,0 +1,336 @@
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nino Design</title>
+    <meta name="description" content="">
+    <link rel="shortcut icon" href="" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/home.css">
+    <script src="js/global.js" defer></script>
+
+    <script>
+
+    </script>
+
+</head>
+
+<!--
+
+    main colors= noir blanc et éventuellement
+
+    idées de mise en page:
+    -alternance bg main colors avec haut/bas de section incliné
+
+    header: (bg noir?)
+            +logo
+            +nav (sur différentes pages)
+                -Accueil
+                -A propos
+                -Portfolio
+                -Services
+                -contact
+
+            +socials
+                -github
+                -mail pro
+                -linkedin ou autre
+            +burger
+    
+    body/accueil:
+    sections:
+        -home 
+        -about => section simple sans img pr le moment, insérer un séparateur entre titre et p pour meubler
+        -services => découvrez l'étendue des services que je propose! (petites icones 
+        jolies et animées style point d'interrogation, map, outils/construction etc qui
+        planent autour pour meubler le tour) Apparition au scroll évidemment   =====
+        /// dans le texte sur la page:
+        découvrez dans les moindres détails les services que je vous propose
+        -portfolio
+        -contact => bouton pour arriver sur formulaire de contact
+
+    footer:
+        -logo
+        -copyright
+        -links => mentions légales, contact, 
+        -socials
+        -petit texte summary
+
+    icons à faire:
+    -skills: 
+        +subtitles =>langages - outils - valeurs
+        +icons des li => HTML, CSS, JS
+                      => GH, Git, Canva, OpenAI
+                      => Valeurs (passion, écoute, créativité, efficacité, respect...)
+                      
+    -contact =>icons ? et échanges/conversation
+
+
+-->
+
+<body>
+
+    <header id="header" class="header dark_section">
+        <div class="header_container">
+            <div class="logo">
+                <a href="index.html">
+                    <!-- <img src="" alt=""> -->
+                    <span class="logo_txt clear">Nino</span>
+                </a>
+            </div>
+            <nav class="navbar">
+                <ul class="menu_list list_unstyled">
+                    <li><a class="clear" href="">Accueil</a></li>
+                    <li><a class="clear" href="">A propos</a></li>
+                    <li><a class="clear" href="">Services</a></li>
+                    <li><a class="clear" href="">Portfolio</a></li>
+                    <li><a class="clear" href="">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header_right">
+                <ul class="socials list_unstyled">
+                    <li>
+                        <a class="clear" href=""><img src="img/icon-mail-white.svg" alt=""></a>
+                    </li>
+                    <li><a class="clear" href=""><img class="clear" src="img/icon-GH-white.svg" alt=""></a></li>
+                </ul>
+                <button class="burger"><span class="bar"></span></button>
+            </div>
+        </div>
+    </header>
+
+    <section id="hero" class="hero clear_section">
+        <div class="container">
+            <div class="flex">
+                <div class="grid_item">
+                    <h1 class="hero_title">Bienvenue</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+                <div class="grid_item">
+                    <img class="radius" src="https://picsum.photos/400/400?random=1" alt="photo perso">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about dark_section">
+        <div class="container">
+            <div class="section_header">
+                <h1 class="section_title">A propos:</h1>
+            </div>
+            <div class="section_content grid">
+                <p class="p_single">Cliquez ci-dessous pour en apprendre plus sur moi et ce qui me motive au
+                    quotidien:
+                </p>
+                <a href="" class="clear_btn_more">En apprendre plus</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="services" class="services clear_section">
+        <div class="container">
+            <div class="section_header">
+                <h1 class="section_title">Mes services:</h1>
+                <p class="p_single">Je suis là pour vous construire un <strong>site web</strong> qui convient à votre
+                    activité et à vos besoins tout en y incluant les caractéristiques nécessaires!</p>
+            </div>
+            <div class="services_container section_content">
+                <div class="service radius">
+                    <div class="service_header">
+                        <img src="img/Icon-crea.svg" alt="" class="service_icon">
+                        <h2>Adapté à vous</h2>
+                    </div>
+                    <div class="service_content">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore quisquam aliquam velit,
+                            vitae non minima laborum</p>
+                    </div>
+                </div>
+                <div class="service radius">
+                    <div class="service_header">
+                        <img src="img/Icon-fast.svg" alt="" class="service_icon">
+                        <h2>Vitesse d'exécution</h2>
+                    </div>
+                    <div class="service_content">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore quisquam
+                            aliquam velit,
+                            vitae non minima laborum</p>
+                    </div>
+                </div>
+                <div class="service radius">
+                    <div class="service_header">
+                        <img src="img/Icon-responsive.svg" alt="" class="service_icon">
+                        <h2>Site Responsive</h2>
+                    </div>
+                    <div class="service_content">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore quisquam aliquam velit,
+                            vitae non minima laborum</p>
+                    </div>
+                </div>
+                <a href="" class="dark_btn_more">En apprendre plus</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="skills dark_section">
+        <div class="container">
+            <div class="section_header">
+                <h1 class="section_title">Mes compétences & valeurs:</h1>
+            </div>
+            <div class="section_content">
+                <div class="skills_item">
+                    <h2 class="skill_subtitle">Les langages que je maîtrise:</h2>
+                    <ul class="skills_list list_unstyled">
+                        <li><img class="skills_icon" src="img/icon-html.svg" alt="">
+                            <p>HTML</p>
+                        </li>
+                        <li><img class="skills_icon" src="img/icon-css.svg" alt="">
+                            <p>CSS</p>
+                        </li>
+                        <li><img class="skills_icon" src="img/icon-js.svg" alt="">
+                            <p>JS</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="skills_item">
+                    <h2 class="skill_subtitle">Les outils que j'utilise:</h2>
+                    <ul class="skills_list list_unstyled">
+                        <li>
+                            <img class="skills_icon" src="img/icon-GH-white.svg" alt="">
+                            <p>GitHub</p>
+                        </li>
+                        <li>
+                            <img class="skills_icon" src="img/icon-git.svg" alt="">
+                            <p>Git</p>
+                        </li>
+                        <li>
+                            <img class="skills_icon" src="img/icon-canva.svg" alt="">
+                            <p>Canva</p>
+                        </li>
+                        <li>
+                            <img class="skills_icon" src="img/icon-openAI.svg" alt="">
+                            <p>Open AI</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="skills_item">
+                    <div class="grid">
+                        <h2 class="skill_subtitle">Mes valeurs:</h2>
+                        <a class="appear_btn" href="">Cliquez ici pour les voir!</a>
+                    </div>
+                    <ul class="skills_list list_unstyled">
+                        <li>
+                            <p>La passion</p>
+                        </li>
+                        <li>
+                            <p>L'écoute</p>
+                        </li>
+                        <li>
+                            <p>La rapidité</p>
+                        </li>
+                        <li>
+                            <p>Avantage</p>
+                        </li>
+                        <li>
+                            <p>Avantage</p>
+                        </li>
+                        <li>
+                            <p>Avantage</p>
+                        </li>
+                        <li>
+                            <p>Avantage</p>
+                        </li>
+                        <li>
+                            <p>Avantage</p>
+                        </li>
+                    </ul>
+                    <p>Apprenez-en plus <a href="html/about.html" class="clear txt_link">ici</a>.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio" class="clear_section portfolio">
+        <div class="container">
+            <div class="section_header">
+                <h1>Mes projets précédents:</h1>
+            </div>
+            <div class="section_content">
+                <img src="" alt="">
+                <p>Donnez vous une idée de mon travail ici: </p>
+                <a href="" class="dark_btn_more">Mon portfolio</a>
+                <img src="" alt="">
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="dark_section contact">
+        <div class="container">
+            <div class="section_header">
+                <h1>Me contacter:</h1>
+            </div>
+            <div class="section_content grid">
+                <img src="" alt="" class="contact_icon">
+                <p class="p_single">Que vous souhaitiez me poser une question ou discuter de votre projet, vous pouvez
+                    me
+                    contacter
+                    en cliquant ci-dessous:</p>
+                <img src="" alt="" class="contact_icon">
+                <a href="" class="clear contact_btn">Me contacter</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- <section class=" clear_section services2">
+                    <div class="container">
+                        <div class="grid_services">
+                            <div class="side_icon_container grid">
+                                <img src="img/icon-GH-black.svg" alt="" class="services_icon">
+                                <img src="img/icon-mail-black.svg" alt="" class="services_icon">
+                                <img src="img/icon-GH-black.svg" alt="" class="services_icon"> </div>
+                            <div class="section_content">
+                                <p class="center_txt">Cliquez sur l'image ci-dessous pour découvrir le détail de mes
+                                    services:</p>
+                                <img src="https://picsum.photos/300/300?random=1" alt="">
+                            </div>
+                            <div class="side_icon_container grid">
+                                <img src="img/icon-GH-black.svg" alt="" class="services_icon">
+                                <img src="img/icon-mail-black.svg" alt="" class="services_icon">
+                                <img src="img/icon-GH-black.svg" alt="" class="services_icon">
+                            </div>
+                        </div>
+                    </div>
+    </section>
+    -->
+
+
+    <footer class="footer" id="footer">
+        <div class="footer_container dark">
+            <div class="logo">
+                <img src="" alt="">
+                <h2><a href="">Nino Design</a></h2>
+            </div>
+            <div class="quick_links">
+                <ul class="quick_links_list list_unstyled">
+                    <li><a href="">Accueil</a></li>
+                    <li><a href="">Contact</a></li>
+                    <li><a href="">Mentions Légales</a></li>
+                    <li><a href=""></a></li>
+                </ul>
+            </div>
+            <div class="footer_right">
+                <ul class="socials list_unstyled">
+                    <li><a href=""><img src="img/icon-mail-black.svg" alt=""></a></li>
+                    <li><a href=""><img class="" src="img/icon-GH-black.svg" alt=""></a></li>
+                </ul>
+            </div>
+            <div class="copyright">
+                <span>Copyright 2024 Nino Design</span>
+            </div>
+        </div>
+    </footer>
+</body>
